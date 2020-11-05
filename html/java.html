@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gama Javascript</title>
+    <script type="text/javascript" src="..\js\funcoes.js"></script>
+
+</head>
+<body>
+
+    <!--<input type="button" value="Me click" onclick="mensagem()">-->
+
+    <form id="form_user" method="POST">
+        <fieldset>
+            <legend><b>Preencha os campos abaixo para fazer um curso conosco</b></legend>
+            <br>
+            <label>Nome:</label><input type="text" class="campo_nome" name="nome" ><br><br>
+            <label>Email:</label><input type="email" class="campo_email" name="email" ><br><br>
+            <label>Senha:</label><input type="password" class="campo_senha" name="senha" ><br><br>
+          
+
+            <input type="submit" value="Enviar" onclick="return validar()">
+        </fieldset>
+    </form>
+    
+</body>
+</html>

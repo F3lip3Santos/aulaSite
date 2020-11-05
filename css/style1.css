@@ -1,0 +1,86 @@
+
+p{
+    font-size: 14px;
+    font-family: Verdana;
+    font-weight: bold;
+    
+}
+
+body{
+    background-color:whitesmoke;
+}
+
+.menu{
+    color: greenyellow;
+    font-size: 14px;
+    font-family: Verdana;
+    font-weight: bold;
+    
+}
+.lista{
+    font-size: 14px;
+    color: blueviolet;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+label{
+    font-size: 14px;
+    color:blueviolet;
+    font-family: geneva;
+}
+
+#form_contato{
+    background-color:aliceblue;
+
+}
+
+/*.campo_nome{
+    color:red;
+    background-color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 70px;
+    width: 200px;
+}
+
+.campo_email{
+    color:red;
+    background-color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 70px;
+    width: 220px;
+
+}
+
+.campo_senha{
+    color:red;
+    background-color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 70px;
+    width: 80px;
+}*/
+
+
+.container{
+    border: 3px solid brown;
+    width: 500px;
+}
+
+.div1{
+    background-color: red;
+}
+
+.div2{
+    background-color: yellow;
+}
+
+.div3{
+    background-color: green;
+}
+
+.div4{
+    background-color: blue;
+}
